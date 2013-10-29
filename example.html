@@ -6,13 +6,16 @@ and open the template in the editor.
 -->
 <html>
   <head>
-    <title>TODO supply a title</title>
+    <title>jQuery Photo Stack Example</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="jquery.photo-stack.js"></script>
   </head>
   <body>
+    
+    <div style="width:800px; margin:auto;">
+    
     <ul id="image_container">
       
       <li><a href="/"><img src="media/1.jpg"/></a></li>
@@ -21,6 +24,8 @@ and open the template in the editor.
       
     </ul>
     
+    </div>
+      
     <script>
       
       jQuery('#image_container').photoStack();
